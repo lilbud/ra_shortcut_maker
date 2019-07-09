@@ -51,7 +51,7 @@ def romlisting():
     
 def romchoice():
     global new_rom_string, finalrompath
-    gamechoice = (int(input("Which Game Would You Like to Choose? (or 99 for all games): ")))
+    gamechoice = (int(input("Which Game Would You Like to Choose?: ")))
     if gamechoice == "99":
         batchcreate()
     make_string = (str(romlist[gamechoice - 1:gamechoice]))
