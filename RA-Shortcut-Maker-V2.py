@@ -86,10 +86,3 @@ def main():
     check()
 
 main()
-
-
-        
-
-
-
-
