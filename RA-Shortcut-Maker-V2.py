@@ -4,6 +4,12 @@
 
 import os, sys
 
+if not os.path.exists('Game Shortcuts'):
+    folderpath = os.makedirs('Game Shortcuts')
+
+folder = os.path.join(os.getcwd(), "Game Shortcuts")
+os.chdir('Game Shortcuts')
+
 # REPLACE THESE LINES WITH PATHS TO YOUR FOLDERS v
 
 RAFOLDER = "D:\Emulation\Other Files\RetroArch"
